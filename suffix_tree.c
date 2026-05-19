@@ -123,6 +123,31 @@ int main() {
     return 0;
 }
 
+// Suffix Tree (Full Idea in Simple Language)
+
+// A Suffix Tree is a data structure used to store all suffixes (ending parts) of a string in a compressed tree form so that we can search patterns very quickly.
+
+// 🔷 What it stores?
+
+// It stores all suffixes of a string.
+
+// Example:
+// String = "banana"
+
+// Suffixes:
+
+// banana
+// anana
+// nana
+// ana
+// na
+// a
+
+// 👉 All these are stored in a tree structure.
+// A Suffix Tree is used to make string searching very fast.
+
+// “Suffix trees are used for fast pattern searching, DNA matching, plagiarism detection, and finding repeated substrings in large text.”
+
 // Suffix tree is a compressed trie of all suffixes of a string used for fast pattern matching in O(m) time.
 // 📌 Suffix Tree
 // ✅ Steps of Code Writing
