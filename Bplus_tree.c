@@ -166,6 +166,8 @@ int main()
     return 0;
 }
 
+
+// A B+ Tree is an improved version of a B-Tree used mainly in databases and file systems for fast searching and indexing.
 // Steps to Write B+ Tree Code (Short)
 // Define Node Structure → keys array, child pointers, leaf flag, count, next pointer (for linking leaves)
 // Create Node Function → allocate memory and initialize values
