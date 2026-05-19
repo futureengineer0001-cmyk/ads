@@ -152,6 +152,24 @@ int main()
     return 0;
 }
 
+// A B-Tree is a special type of tree data structure used to store data in a sorted order and allow fast searching, insertion, and deletion.
+// Searching:
+// Start from the top (root)
+// Check values in the node
+// If found → done
+// If not → go to the correct child
+// Repeat
+// 🔹 Inserting:
+// Go to the correct position (usually leaf node)
+// Insert value in sorted order
+// If node becomes full:
+// Split it
+// Move middle value up
+// 🔹 Deleting:
+// Remove the value
+// If node has too few values:
+// Borrow from nearby node OR
+// Merge nodes
  
 // Define Node Structure → keys array, child pointers, count, and leaf flag
 // Create Node Function → allocate memory and initialize node values
