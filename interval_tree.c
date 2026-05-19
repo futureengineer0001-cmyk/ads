@@ -170,7 +170,24 @@ int main() {
     }
 }
 
+// Interval Tree (Very Simple Explanation)
 
+// An Interval Tree is a data structure used to store ranges (intervals) like:
+
+// 👉 [10, 20], [15, 25], [30, 40]
+
+// It helps to quickly find which intervals overlap with each other.
+
+// Key Feature
+
+// 👉 Each node stores:
+
+// Start point
+// End point
+// Maximum end value in its subtree
+
+// This helps to skip unnecessary checking.
+    
 // 📌 Steps of Code Writing
 // Create node with low, high, max
 // Insert interval like BST
